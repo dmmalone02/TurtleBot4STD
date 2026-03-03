@@ -77,18 +77,11 @@ To add a new behavior:
 - Rebuild workspace:
   - colcon build
   - source install/setup.bash
-## Future Development
-Parameterized motion commands
-Action server interface
-Mission leader integration
-Obstacle-aware primitives
-ROS 2 service-based motion calls
-SLAM-lite constrained local sensing mode
-Multi-agent behavior abstraction layer
-🏗 Integration With MARL / Mission Leader Architecture
+  
+## Integration With MARL / Mission Leader Architecture
 This library is designed to:
-Receive directives from a central mission node
-Execute atomic motion primitives
-Remain stateless unless extended
-Operate independently if other agents go offline
+- Receive directives from a central mission node
+- Execute atomic motion primitives
+- Remain stateless unless extended
+- Operate independently if other agents go offline
 This aligns with distributed autonomous systems and independent agent functionality requirements.

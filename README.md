@@ -16,7 +16,7 @@ Support single-agent and multi-agent deployments
 
 ## System Requirements
 TurtleBot4 Standard
-ROS 2 (Humble or Jazzy recommended)
+ROS 2 Jazzy
 Ubuntu 24.04
 SSH access to robot
 Same ROS_DOMAIN_ID across devices (if multi-robot)

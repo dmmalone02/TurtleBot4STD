@@ -78,10 +78,3 @@ To add a new behavior:
   - colcon build
   - source install/setup.bash
   
-## Integration With MARL / Mission Leader Architecture
-This library is designed to:
-- Receive directives from a central mission node
-- Execute atomic motion primitives
-- Remain stateless unless extended
-- Operate independently if other agents go offline
-This aligns with distributed autonomous systems and independent agent functionality requirements.

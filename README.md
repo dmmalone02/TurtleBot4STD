@@ -14,26 +14,6 @@ Standardize ROS 2 node structure
 Reduce command friction during testing
 Support single-agent and multi-agent deployments
 
-## Repository Structure
-TurtleBot4STD/
-│
-├── nodes/
-│   ├── rotate.py
-│   ├── forward.py
-│   ├── stop.py
-│   ├── square_path.py
-│   └── custom_motion_template.py
-│
-├── launch/
-│   └── basic_motion.launch.py
-│
-├── scripts/
-│   └── send_command.sh
-│
-├── utils/
-│   └── qos_profiles.py
-│
-└── README.md
 ## System Requirements
 TurtleBot4 Standard
 ROS 2 (Humble or Jazzy recommended)
@@ -51,7 +31,7 @@ Run a motion node:
 ros2 run turtlebot4std rotate
 ## Example: One-Line Remote Execution
 From your local machine:
-ssh ubuntu@192.168.1.104 "source /opt/ros/jazzy/setup.bash && ros2 run turtlebot4std rotate"
+ssh ubuntu@10.1.1.104 "source /opt/ros/jazzy/setup.bash && ros2 run turtlebot4std rotate"
 This allows:
 - Direct command execution
 -  Quick behavior testing

@@ -28,10 +28,10 @@ Then source ROS:
 source /opt/ros/jazzy/setup.bash
 source ~/turtlebot4_ws/install/setup.bash
 Run a motion node:
-ros2 run turtlebot4std rotate
+ros2 run turtlebot4std <action.
 ## Example: One-Line Remote Execution
 From your local machine:
-ssh ubuntu@10.1.1.104 "source /opt/ros/jazzy/setup.bash && ros2 run turtlebot4std rotate"
+ssh ubuntu@10.1.1.104 "source /opt/ros/jazzy/setup.bash && ros2 run turtlebot4std <action>"
 This allows:
 - Direct command execution
 -  Quick behavior testing

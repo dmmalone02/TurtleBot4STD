@@ -1,17 +1,14 @@
 # TurtleBot4STD
 ## TurtleBot4 Standard – Remote Node Command Library
-A structured library of ROS 2 nodes and utility scripts for rapidly deploying motion and behavior commands to the TurtleBot4 Standard platform via SSH.
+A structured library of ROS 2 nodes and utility scripts for deploying motion and behavior commands to the TurtleBot4 Standard platform via SSH.
 The goal of this repository is to enable:
 One-line remote execution of robot behaviors
-Rapid testing of mobility primitives
 Modular expansion for multi-agent systems
-Clean separation between high-level mission logic and low-level actuation
-This repo supports development for distributed robotics systems (e.g., MARL, mission leader → agent control, search & navigation experiments).
+
 ## Project Goals
-Build a reusable library of mobility primitives
+Build a reusable library of mobility commands
 Enable remote robot control via SSH
 Standardize ROS 2 node structure
-Reduce command friction during testing
 Support single-agent and multi-agent deployments
 
 ## System Requirements

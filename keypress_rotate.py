@@ -47,7 +47,7 @@ class RotateWait(Node):
         super().__init__('tb4_rotate_wait')
 
         # Publisher to base velocity command
-        self.cmd_pub = self.create_publisher(Twist, '/cmd_vel_unstamped', 10)
+        self.cmd_pub = self.create_publisher(Twist, '/tb_std/cmd_vel_unstamped', 10)
 
         # Tunables (start conservative)
         self.angular_speed = 0.6  # rad/s (positive = CCW)

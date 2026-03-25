@@ -30,7 +30,7 @@ def angle_diff(a, b):
 
 class RotateAngle(Node):
     def __init__(self):
-        super().__init__('rotate_angle')
+        super().__init__('rotate')
 
         # Parameters
         self.declare_parameter('angle_deg', 90.0)
